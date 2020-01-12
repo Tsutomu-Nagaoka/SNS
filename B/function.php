@@ -247,7 +247,7 @@ function queryPost($dbh, $sql, $data){
 
 function dbConnect(){
   // DBへの接続準備
-  $dsn = 'mysql:dbname=mybooks;host=localhost;charset=utf8';
+  $dsn = 'mysql:dbname=SNS;host=localhost;charset=utf8';
   $user = 'root';
   $password = 'root';
   $options = array(

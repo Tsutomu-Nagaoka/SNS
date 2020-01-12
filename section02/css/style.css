@@ -1,0 +1,56 @@
+@import url(bootstrap.min.css);
+
+body,
+pre {
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, sans-serif;
+}
+header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #7CA4D7
+}
+header h1 {
+  font-size: 100%;
+  margin-top: 30px;
+}
+header h1 span {
+  display: block;
+}
+main {
+  margin-left: 300px;
+  padding: 30px;
+}
+main h2 {
+  font-size: 120%;
+  text-shadow: 1px 1px 3px #999;
+}
+main h2 img {
+  height: 1em;
+}
+pre {
+  min-height: 100px;
+  padding: 10px;
+  background-color: #e3f2ff;
+  box-shadow: 1px 1px 5px #eee;
+  width: 500px;
+}
+hr {
+  border-color: #7CA4D7;
+}
+.content {
+  margin-top: 30px;
+}
+form {
+  margin-top: 50px;
+}
+time {
+  color: #999;
+  font-size: 80%;
+}
+article {
+  margin-top: 30px;
+}
